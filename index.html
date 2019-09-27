@@ -17,103 +17,42 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="currentDay" class="lead"></p>
-  </header>
-  <div class="container">
+    <p class="lead"> Today's date and time: </p>
+   <div><p id= "datetime"><span id="datetime"></span></p>
+  </div> 
+
+</header>
+
+  <div class="container" id="time-slots">
 
     <!-- first col-2 is time
     col-8 is entry box that needs to be saved into Local storage
     second col-2 is the save button-->
 
     <!-- Timeblocks go here -->
-    <div class="row bg-primary text-white">
+    <!-- <div class="row bg-primary text-white">
       <div class="col-2"> 8am </div>
       <div class="col-8" contenteditable="true"> Input plans here </div>
       <div class="col-2">
         <button type="button" class="btn btn-dark">Save</button> </div>
-    </div>
-    <div class="row bg-primary text-white">
-      <div class="col-2"> 9am </div>
-      <div class="col-8" contenteditable="true">Input your plans here.</div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-primary text-white">
-      <div class="col-2"> 10am </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button> </div>
-    </div>
-
-    <div class="row bg-primary text-white">
-      <div class="col-2"> 11am </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-success text-white">
-      <div class="col-2"> 12pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 1pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 2pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 3pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 4pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 5pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button> </div>
-    </div>
-
-    <div class="row bg-info text-white">
-      <div class="col-2"> 6pm </div>
-      <div class="col-8" contenteditable="true"> Input plans here </div>
-      <div class="col-2">
-        <button type="button" class="btn btn-dark">Save</button>
-      </div>
-    </div>
+    </div> -->
 
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>  
+
+  <script>
+  // function displayTime() {
+  //   var time = moment().format('HH:mm:ss');
+  //   $('#clock').html(time);
+  //   setTimeout(displayTime, 1000);
+  // }
+
+  //   console.log(displayTime)
+  </script>
+<script src="./script.js"></script>
 </body>
 
 </html>
